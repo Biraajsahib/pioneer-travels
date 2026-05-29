@@ -42,22 +42,22 @@ export default function HomePage() {
             </a>
 
           </nav>
-              <h1
-                className="
-                text-[40px]
-                md:text-[60px]
-                lg:text-[72px]
-                leading-[0.95]
-                tracking-[-2px]
-                font-semibold
-                mb-8
-              "
+        </div>
+      </header>
+
+      {/* HERO SECTION */}
+      <section className="relative min-h-screen flex items-center overflow-hidden">
+
+        {/* BACKGROUND */}
+        <div
+          className="absolute inset-0 bg-cover bg-center opacity-20 scale-105"
+          style={{
             backgroundImage:
               "url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=2070&auto=format&fit=crop')",
           }}
         />
-                >
-                  Intra-city and outstation cabs in a single place
+
+        {/* OVERLAY */}
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/80 to-[#060606]" />
 
         {/* GOLD AMBIENT LIGHT */}
@@ -73,9 +73,9 @@ export default function HomePage() {
 
               <h1
                 className="
-                text-[46px]
-                md:text-[66px]
-                lg:text-[82px]
+                text-[40px]
+                md:text-[60px]
+                lg:text-[72px]
                 leading-[0.95]
                 tracking-[-2px]
                 font-semibold
@@ -86,7 +86,7 @@ export default function HomePage() {
                     "Georgia, Times New Roman, serif",
                 }}
               >
-                Get Multiple Services In A Single Place
+                Intra-city and outstation cabs in a single place
               </h1>
 
               <p className="text-base md:text-xl text-gray-300 leading-relaxed max-w-2xl mb-12 font-light">
