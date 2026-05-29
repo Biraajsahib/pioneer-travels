@@ -65,6 +65,10 @@ export default function FleetPage() {
 
                 <p>• Honda Amaze</p>
 
+                <p>• Traveller</p>
+
+                <p>• Bus</p>
+
               </div>
 
             </div>

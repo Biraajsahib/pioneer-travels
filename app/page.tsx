@@ -269,7 +269,7 @@ export default function HomePage() {
                 </div>
 
                 <div className="text-4xl md:text-5xl font-semibold">
-                  ₹3,500
+                  ₹3,499 onwards
                 </div>
 
               </div>
@@ -317,7 +317,7 @@ export default function HomePage() {
                 </div>
 
                 <div className="text-4xl md:text-5xl font-semibold">
-                  ₹5,500
+                  ₹5,499 onwards
                 </div>
 
               </div>
@@ -338,7 +338,7 @@ export default function HomePage() {
                 </div>
 
                 <div className="text-4xl md:text-5xl font-semibold">
-                  ₹4,500
+                  ₹4,499 onwards
                 </div>
 
               </div>

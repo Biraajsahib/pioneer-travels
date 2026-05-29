@@ -21,24 +21,18 @@ export default function ServicesPage() {
               <h3 className="font-semibold text-white mb-2">
                 Executive Sedan
               </h3>
-
-              <p>₹14 – ₹18 / km</p>
             </div>
 
             <div>
               <h3 className="font-semibold text-white mb-2">
                 Executive SUV / MPV
               </h3>
-
-              <p>₹20 – ₹28 / km</p>
             </div>
 
             <div>
               <h3 className="font-semibold text-white mb-2">
                 Luxury Fleet
               </h3>
-
-              <p>₹40 – ₹100 / km</p>
             </div>
 
           </div>
@@ -57,24 +51,18 @@ export default function ServicesPage() {
               <h3 className="font-semibold text-white mb-2">
                 Executive Sedan
               </h3>
-
-              <p>Starting from ₹1500</p>
             </div>
 
             <div>
               <h3 className="font-semibold text-white mb-2">
                 Executive SUV / MPV
               </h3>
-
-              <p>Starting from ₹2500</p>
             </div>
 
             <div>
               <h3 className="font-semibold text-white mb-2">
                 Luxury Fleet
               </h3>
-
-              <p>Starting from ₹6000</p>
             </div>
 
           </div>
@@ -93,24 +81,18 @@ export default function ServicesPage() {
               <h3 className="font-semibold text-white mb-2">
                 Executive Sedan
               </h3>
-
-              <p>Starting from ₹1800</p>
             </div>
 
             <div>
               <h3 className="font-semibold text-white mb-2">
                 Executive SUV / MPV
               </h3>
-
-              <p>Starting from ₹3000</p>
             </div>
 
             <div>
               <h3 className="font-semibold text-white mb-2">
                 Luxury Fleet
               </h3>
-
-              <p>Starting from ₹8000</p>
             </div>
 
           </div>
