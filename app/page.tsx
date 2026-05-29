@@ -266,6 +266,14 @@ export default function HomePage() {
 
               </div>
 
+              <div className="overflow-hidden rounded-[28px] border border-white/10">
+                <img
+                  src="/cars/etios.png"
+                  alt="Etios executive sedan"
+                  className="w-full h-auto object-cover"
+                />
+              </div>
+
             </div>
 
           </div>
@@ -325,6 +333,14 @@ export default function HomePage() {
                   ₹4,500
                 </div>
 
+              </div>
+
+              <div className="overflow-hidden rounded-[28px] border border-white/10">
+                <img
+                  src="/cars/innova.png"
+                  alt="Innova SUV MPV"
+                  className="w-full h-auto object-cover"
+                />
               </div>
 
             </div>
