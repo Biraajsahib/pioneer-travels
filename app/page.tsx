@@ -245,6 +245,14 @@ export default function HomePage() {
 
             <div className="space-y-6">
 
+              <div className="overflow-hidden rounded-[28px] border border-white/10 bg-black p-6">
+                <img
+                  src="/cars/etios.png"
+                  alt="Etios executive sedan"
+                  className="w-full h-auto object-contain bg-black"
+                />
+              </div>
+
               {/* EXECUTIVE SEDAN */}
               <div className="bg-white/[0.06] border border-white/10 rounded-[28px] p-7 flex items-center justify-between">
 
@@ -266,14 +274,6 @@ export default function HomePage() {
 
               </div>
 
-              <div className="overflow-hidden rounded-[28px] border border-white/10">
-                <img
-                  src="/cars/etios.png"
-                  alt="Etios executive sedan"
-                  className="w-full h-auto object-cover"
-                />
-              </div>
-
             </div>
 
           </div>
@@ -292,6 +292,14 @@ export default function HomePage() {
             </h3>
 
             <div className="space-y-6">
+
+              <div className="overflow-hidden rounded-[28px] border border-white/10 bg-black p-6">
+                <img
+                  src="/cars/innova.png"
+                  alt="Innova SUV MPV"
+                  className="w-full h-auto object-contain bg-black"
+                />
+              </div>
 
               {/* CRYSTA */}
               <div className="bg-white/[0.06] border border-white/10 rounded-[28px] p-7 flex items-center justify-between">
@@ -333,14 +341,6 @@ export default function HomePage() {
                   ₹4,500
                 </div>
 
-              </div>
-
-              <div className="overflow-hidden rounded-[28px] border border-white/10">
-                <img
-                  src="/cars/innova.png"
-                  alt="Innova SUV MPV"
-                  className="w-full h-auto object-cover"
-                />
               </div>
 
             </div>
