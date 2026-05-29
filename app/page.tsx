@@ -10,7 +10,7 @@ export default function HomePage() {
 
           <Link
             href="/"
-            className="text-3xl md:text-5xl font-light tracking-[6px]"
+            className="text-2xl md:text-4xl font-light tracking-[6px]"
             style={{
               fontFamily: "Helvetica Neue, Helvetica, Arial, sans-serif",
             }}
@@ -42,22 +42,22 @@ export default function HomePage() {
             </a>
 
           </nav>
-        </div>
-      </header>
-
-      {/* HERO SECTION */}
-      <section className="relative min-h-screen flex items-center overflow-hidden">
-
-        {/* BACKGROUND */}
-        <div
-          className="absolute inset-0 bg-cover bg-center opacity-20 scale-105"
-          style={{
+              <h1
+                className="
+                text-[40px]
+                md:text-[60px]
+                lg:text-[72px]
+                leading-[0.95]
+                tracking-[-2px]
+                font-semibold
+                mb-8
+              "
             backgroundImage:
               "url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=2070&auto=format&fit=crop')",
           }}
         />
-
-        {/* OVERLAY */}
+                >
+                  Intra-city and outstation cabs in a single place
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/80 to-[#060606]" />
 
         {/* GOLD AMBIENT LIGHT */}
@@ -122,7 +122,7 @@ export default function HomePage() {
             <div className="bg-white/[0.06] backdrop-blur-2xl border border-white/10 rounded-[38px] p-10">
 
               <h2
-                className="text-4xl md:text-5xl mb-10 text-yellow-400"
+                className="text-3xl md:text-4xl mb-10 text-yellow-400"
                 style={{
                   fontFamily:
                     "Georgia, Times New Roman, serif",
@@ -208,8 +208,8 @@ export default function HomePage() {
 
           <h2
             className="
-            text-[48px]
-            md:text-[70px]
+            text-[40px]
+            md:text-[56px]
             leading-tight
             mb-5
             font-semibold
@@ -268,7 +268,7 @@ export default function HomePage() {
 
                 </div>
 
-                <div className="text-4xl md:text-5xl font-semibold">
+                <div className="text-3xl md:text-4xl font-semibold">
                   ₹3,499 onwards
                 </div>
 
@@ -316,7 +316,7 @@ export default function HomePage() {
 
                 </div>
 
-                <div className="text-4xl md:text-5xl font-semibold">
+                <div className="text-3xl md:text-4xl font-semibold">
                   ₹5,499 onwards
                 </div>
 
@@ -337,7 +337,7 @@ export default function HomePage() {
 
                 </div>
 
-                <div className="text-4xl md:text-5xl font-semibold">
+                <div className="text-3xl md:text-4xl font-semibold">
                   ₹4,499 onwards
                 </div>
 

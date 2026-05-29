@@ -13,7 +13,7 @@ export default function FleetPage() {
             Pioneer Travels
           </p>
 
-          <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-8">
+          <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-8">
             Our Fleet
           </h1>
 
@@ -37,7 +37,7 @@ export default function FleetPage() {
                 Fleet Category
               </p>
 
-              <h2 className="text-5xl font-bold">
+              <h2 className="text-4xl font-bold">
                 Executive Fleet
               </h2>
             </div>
@@ -51,11 +51,11 @@ export default function FleetPage() {
             {/* SEDAN */}
             <div className="bg-black border border-white/10 rounded-[40px] p-10 hover:border-yellow-400/40 transition duration-500">
 
-              <h3 className="text-4xl font-bold text-yellow-400 mb-10">
+              <h3 className="text-3xl font-bold text-yellow-400 mb-10">
                 Executive Sedan
               </h3>
 
-              <div className="space-y-6 text-2xl text-gray-300">
+              <div className="space-y-6 text-xl text-gray-300">
 
                 <p>• Toyota Etios</p>
 
@@ -76,11 +76,11 @@ export default function FleetPage() {
             {/* SUV / MPV */}
             <div className="bg-black border border-white/10 rounded-[40px] p-10 hover:border-yellow-400/40 transition duration-500">
 
-              <h3 className="text-4xl font-bold text-yellow-400 mb-10">
+              <h3 className="text-3xl font-bold text-yellow-400 mb-10">
                 SUV / MPV Fleet
               </h3>
 
-              <div className="space-y-6 text-2xl text-gray-300">
+              <div className="space-y-6 text-xl text-gray-300">
 
                 <p>• Toyota Innova Crysta</p>
 
@@ -111,9 +111,9 @@ export default function FleetPage() {
                 Premium Collection
               </p>
 
-              <h2 className="text-5xl font-bold">
-                Luxury Fleet
-              </h2>
+              <h2 className="text-4xl font-bold">
+                    Luxury Fleet
+                  </h2>
             </div>
 
             <div className="hidden md:block w-32 h-[1px] bg-yellow-400"></div>
@@ -125,11 +125,11 @@ export default function FleetPage() {
             {/* LUXURY SEDAN */}
             <div className="bg-zinc-950 border border-white/10 rounded-[40px] p-10 hover:border-yellow-400/40 transition duration-500">
 
-              <h3 className="text-4xl font-bold text-yellow-400 mb-10">
+              <h3 className="text-3xl font-bold text-yellow-400 mb-10">
                 Luxury Sedans
               </h3>
 
-              <div className="space-y-6 text-2xl text-gray-300">
+              <div className="space-y-6 text-xl text-gray-300">
 
                 <p>• Mercedes E-Class</p>
 
@@ -146,11 +146,11 @@ export default function FleetPage() {
             {/* LUXURY SUV */}
             <div className="bg-zinc-950 border border-white/10 rounded-[40px] p-10 hover:border-yellow-400/40 transition duration-500">
 
-              <h3 className="text-4xl font-bold text-yellow-400 mb-10">
+              <h3 className="text-3xl font-bold text-yellow-400 mb-10">
                 Luxury SUVs
               </h3>
 
-              <div className="space-y-6 text-2xl text-gray-300">
+              <div className="space-y-6 text-xl text-gray-300">
 
                 <p>• Toyota Fortuner</p>
 

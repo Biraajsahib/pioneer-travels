@@ -2,7 +2,7 @@ export default function ServicesPage() {
   return (
     <main className="min-h-screen bg-black text-white px-8 py-28">
 
-      <h1 className="text-6xl font-bold mb-16 text-center">
+      <h1 className="text-4xl md:text-5xl font-bold mb-16 text-center">
         Our Services
       </h1>
 
@@ -11,7 +11,7 @@ export default function ServicesPage() {
         {/* CITY TO CITY */}
         <div className="bg-zinc-900 rounded-3xl p-8 border border-white/10">
 
-          <h2 className="text-3xl font-bold mb-6 text-yellow-400">
+          <h2 className="text-2xl font-bold mb-6 text-yellow-400">
             City to City
           </h2>
 
@@ -41,7 +41,7 @@ export default function ServicesPage() {
         {/* INTRA CITY */}
         <div className="bg-zinc-900 rounded-3xl p-8 border border-white/10">
 
-          <h2 className="text-3xl font-bold mb-6 text-yellow-400">
+          <h2 className="text-2xl font-bold mb-6 text-yellow-400">
             Intra City
           </h2>
 
@@ -71,7 +71,7 @@ export default function ServicesPage() {
         {/* AIRPORT */}
         <div className="bg-zinc-900 rounded-3xl p-8 border border-white/10">
 
-          <h2 className="text-3xl font-bold mb-6 text-yellow-400">
+          <h2 className="text-2xl font-bold mb-6 text-yellow-400">
             Airport Transfers
           </h2>
 
