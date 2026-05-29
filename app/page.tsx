@@ -10,7 +10,10 @@ export default function HomePage() {
 
           <Link
             href="/"
-            className="text-3xl md:text-5xl font-black tracking-[6px]"
+            className="text-3xl md:text-5xl font-light tracking-[6px]"
+            style={{
+              fontFamily: "Helvetica Neue, Helvetica, Arial, sans-serif",
+            }}
           >
             PIONEER TRAVELS
           </Link>
@@ -68,15 +71,11 @@ export default function HomePage() {
             {/* LEFT */}
             <div>
 
-              <p className="uppercase tracking-[8px] text-yellow-400 text-xs md:text-sm mb-6">
-                Pioneer Travels
-              </p>
-
               <h1
                 className="
-                text-[52px]
-                md:text-[72px]
-                lg:text-[88px]
+                text-[46px]
+                md:text-[66px]
+                lg:text-[82px]
                 leading-[0.95]
                 tracking-[-2px]
                 font-semibold
