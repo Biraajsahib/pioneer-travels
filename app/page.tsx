@@ -234,50 +234,35 @@ export default function HomePage() {
           {/* SEDAN */}
           <div className="bg-[#0b0b0b] border border-white/10 rounded-[36px] p-10">
 
-            <div className="flex items-center justify-between mb-10">
+            <h3
+              className="text-4xl md:text-5xl text-yellow-400 mb-10"
+              style={{
+                fontFamily:
+                  "Georgia, Times New Roman, serif",
+              }}
+            >
+              Executive Sedan
+            </h3>
 
-              <div>
-                <h3
-                  className="text-4xl md:text-5xl text-yellow-400 leading-tight"
-                  style={{
-                    fontFamily:
-                      "Georgia, Times New Roman, serif",
-                  }}
-                >
-                  Executive Sedan
-                </h3>
+            <div className="space-y-6">
 
-                <p className="text-gray-400 text-lg mt-4">
-                  Etios • Aura • Dzire
-                </p>
-              </div>
+              {/* EXECUTIVE SEDAN */}
+              <div className="bg-white/[0.06] border border-white/10 rounded-[28px] p-7 flex items-center justify-between">
 
-              <div className="bg-yellow-400 text-black px-5 py-3 rounded-full text-sm font-semibold">
-                Best Seller
-              </div>
+                <div>
 
-            </div>
+                  <h4 className="text-2xl md:text-3xl font-medium mb-2">
+                    Etios • Aura • Dzire
+                  </h4>
 
-            <div className="bg-white/[0.06] border border-white/10 rounded-[30px] p-8">
-
-              <p className="uppercase tracking-[6px] text-gray-400 text-xs mb-6">
-                One Way Fare
-              </p>
-
-              <div className="flex items-center justify-between flex-wrap gap-8">
-
-                <h4 className="text-5xl md:text-6xl font-semibold">
-                  ₹3,500
-                </h4>
-
-                <div className="text-right">
-                  <p className="uppercase tracking-[4px] text-gray-500 text-xs mb-2">
-                    Route
-                  </p>
-
-                  <p className="text-lg md:text-xl text-gray-300">
+                  <p className="text-gray-400 text-base md:text-lg">
                     Chandigarh ↔ Delhi
                   </p>
+
+                </div>
+
+                <div className="text-4xl md:text-5xl font-semibold">
+                  ₹3,500
                 </div>
 
               </div>
